@@ -38,10 +38,19 @@ pip install -r requirements.txt
 pytest .
 ```
 
-#### Для формирование отчета Allure введите в терминале команду: 
+### Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/qa_guru_graduation_project_API/)
+Нажмите кнопку «Собрать сейчас»
+<p><img src="images/screenschot/jenkins_job.png"></p>
+
+### <img width="3%" title="Allure Report" src="images/logo/allure_report.png"> Отчетность о прохождении тестов в Allure
+#### Если тест запускался локально:
+Введите в терминале команду 
 ```
 allure serve allure-results
 ``` 
+#### Если тест запускался в Jenkins
+Нажмите Allure Report или кликните по иконке отчёта в завершённой сборке
+<p><img title="Jenkins_Allure" src="images/screenschot/jenkins_allure.png"></p>
 
 ### Отображение тестов в отчете
 <img title="Allure_Report" src="images/screenschot/Allure Report0.png">
